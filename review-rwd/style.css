@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkorange;
+    
+}
+
+img {
+    width:100% ;
+    background-color: white;
+}
+
+.p-5 {
+    padding: 10px;
+}
+
+.row-1 {
+    clear: left;
+}
+
+@media screen and (max-width : 600px) {
+    body {
+        background-color: red;
+    }
+}
+
+
+@media screen and (min-width : 601px) {
+    body {
+        background-color: lightgreen;
+    }
+    .col-md-50 {
+        width:50%;
+        float: left;
+    }
+    .col-kg-100 {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media screen and (min-width : 993px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+    .col-lg-25 {
+        width: 25%;
+        float: left;
+    }
+
+    .col-lg-50 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-lg-75 {
+        width: 75%;
+        float: left;
+    }
+}
+
+
